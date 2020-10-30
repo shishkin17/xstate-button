@@ -1,0 +1,20 @@
+{
+  "name": "xstate-button",
+  "version": "0.0.1",
+  "description": "Xstate toggle behavior for buttons in React out of the box.",
+  "keywords": [
+    "xstate",
+    "react",
+    "button"
+  ],
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Andrew Shishkin",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "xstate": "^4.11.0",
+    "@xstate/react": "^1.0.1"
+  }
+}
