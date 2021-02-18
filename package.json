@@ -1,7 +1,7 @@
 {
   "name": "xstate-button",
-  "version": "0.0.2",
-  "description": "Xstate toggle behavior for buttons in React out of the box.",
+  "version": "0.0.3",
+  "description": "xstate toggle behavior for buttons in React out of the box.",
   "keywords": [ "xstate", "react", "button" ],
   "main": "index.js",
   "scripts": {

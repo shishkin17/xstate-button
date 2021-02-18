@@ -66,8 +66,7 @@ export const useXstateForButton = (request, config) => {
     else
         promise = request;
 
-    let myRequestMachine = requestMachine;
-    myRequestMachine = requestMachine.withContext({
+    const myRequestMachine = requestMachine.withContext({
         buttonName: readyName,
         readyName,
         loadingName

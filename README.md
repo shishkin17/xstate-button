@@ -1,6 +1,23 @@
 # xstate-button
 
-[xstate](https://github.com/davidkpiano/xstate) toggle behaviour for buttons in React out of the box.
+![](https://github.com/shishkin17/xstate-button/blob/master/src/images/example.gif)
+
+[Live demo on CodeSandbox](https://codesandbox.io/s/modest-hooks-wsihw?file=/src/App.js)
+
+[xstate](https://github.com/davidkpiano/xstate) toggle behavior for buttons in [React](https://reactjs.org/) out of the box.
+
+## What?
+
+This is a hook that makes any button smart by:
+- protecting it from multiple clicks until action is finished
+- showing current state with name change
+- visually disabling while it is inactive
+
+It works with basic html buttons as well as any framework buttons.
+## Why use that?
+
+[xstate](https://github.com/davidkpiano/xstate) is awesome and not that hard to understand. But if you decide to make a smart button (that we described above) it comes out it is not that trivial as it seems. In order to accomplish that, you need to understand how to use context, actions and pass data in xstate (and figure out what you really need to use before you actually know that).
+
 
 ## Installation
 
@@ -8,7 +25,17 @@
 npm install --save xstate-button
 ```
 
+This package needs [xstate](https://github.com/davidkpiano/xstate) and [@xstate/react](https://github.com/davidkpiano/xstate/tree/master/packages/xstate-react) to be installed as well, so if not, use this line to install everything at once:
+
+```bash
+npm install --save xstate-button xstate @xstate/react
+```
+
+
 ## Usage
+You just call a function "useXstateForButton" where you send an http request or do something else with promises. It returns you 3 variables:  start function, button name and disabled status. Now you can specify them for your button.
+
+[Try all examples live on CodeSandbox](https://codesandbox.io/s/modest-hooks-wsihw?file=/src/App.js)
 
 ```js
 import { useXstateForButton } from 'xstate-button';
