@@ -1,6 +1,6 @@
 # xstate-button
 
-![](https://github.com/shishkin17/xstate-button/blob/master/src/images/example.gif)
+![](https://shishkin17.github.io/example.gif)
 
 [Live demo on CodeSandbox](https://codesandbox.io/s/modest-hooks-wsihw?file=/src/App.js)
 
